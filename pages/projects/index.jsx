@@ -4,6 +4,9 @@ import Image from 'next/image';
 import { Fragment } from 'react/jsx-runtime';
 
 const projects = [
+  { id: 7, title: 'Renovation Project', category: 'Renovation', img: '/img/projects/images.jpg' },
+  { id: 8, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-1.jpg' },
+  { id: 9, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-2.jpg' },
   { id: 1, title: 'Modern Construction', category: 'Construction', img: '/img/projects/pro-1.webp' },
   { id: 2, title: 'Urban Planning', category: 'Architecture', img: '/img/projects/pro-2.webp' },
   { id: 3, title: 'Interior Design', category: 'Design', img: '/img/projects/pro-3.webp' },

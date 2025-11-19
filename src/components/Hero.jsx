@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="text-center">
               {/* Main headline with animation */}
               <h3 className="fs-56 ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s oswald">
-                Residential Construction Company in Location
+                Khush Construction is a trusted real estate firm
               </h3>
 
               {/* Subheadline with animation */}
@@ -38,7 +38,7 @@ const Hero = () => {
               <div className="d-inline link animate__animated animate__slideInUp animate__delay-3s position-relative z-2">
                 <NextLink
                   title="Know More"
-                  href="/about-us"
+                  href="/#about"
                   className="btn btn-sm primary-bg text-white rounded d-inline"
                 />
               </div>

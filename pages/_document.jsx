@@ -6,14 +6,14 @@ export default class SandBox extends Document {
       <Html lang="en">
         <Head>
           {/* Favicon and icons for different platforms */}
-          <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
-          <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />
+          {/* <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
+          <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" /> */}
           <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
+          {/* <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
           <link rel="manifest" href="/img/favicon/site.webmanifest" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" /> */}
         </Head>
         <body>
           {/* Main React app content will be injected here */}

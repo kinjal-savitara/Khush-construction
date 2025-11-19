@@ -77,7 +77,7 @@ const Navbar = ({
               <NextLink href="/" title="Home" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="/#about" title="About Us" className="nav-link" />
+              <NextLink href="/about-us" title="About Us" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
               <NextLink href="/projects" title="Projects" className="nav-link" />

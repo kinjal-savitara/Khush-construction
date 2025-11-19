@@ -12,11 +12,18 @@ const Widget = ({ list, title }) => (
   <div className="widget">
     <h4 className="widget-title fs-18 mb-3 text-uppercase oswald">{title}</h4>
     <ul className="list-unstyled text-reset mb-0">
-      {list.map(({ id, title }) => (
-        <li key={id} className="roboto">
-          <NextLink href="#" title={title} />
-        </li>
-      ))}
+      <li className="roboto">
+        <NextLink href="#" title={"Home"} />
+      </li>
+      <li className="roboto">
+        <NextLink href="/about-us" title={"About Us"} />
+      </li>
+      <li className="roboto">
+        <NextLink href="/projects" title={"Projects"} />
+      </li>
+      <li className="roboto">
+        <NextLink href="#contact" title={"Contact Us"} />
+      </li>
     </ul>
   </div>
 );
@@ -29,7 +36,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-top footer-bg overflow-hidden" id='contact'>
+    <footer className="border-top footer-bg overflow-hidden" id="contact">
       <div className="container pt-10 pt-md-12 pb-7">
         <div className="row gx-10 justify-content-around">
           {/* Logo and Company Description */}
@@ -87,6 +94,8 @@ const Footer = () => {
               <div className="d-flex">
                 <i className="uil uil-phone-volume fs-26 text-main" />
                 <p className="mt-1 ms-2 fs-18 d-flex flex-column roboto">
+                  {/* add name here */}
+                  <span className="fs-16 fw-bold">Mitesh R Shah</span> {/* Name */}
                   <a href="tel:+911234567890">+91 98241 44034</a>
                   {/* <a href="tel:+919876543210">+91 98765 43210</a> */}
                 </p>
