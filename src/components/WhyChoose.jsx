@@ -14,7 +14,7 @@ const WhyChoose = () => {
       <div className="order-lg-2 col-lg-6">
         <figure className="img-bg">
           <Image
-            src="/img/transforming-residential-construction-in-gambias.webp"
+            src="/img/home-page-2.jpg"
             alt="Transforming Residential Construction in Location | Buildify"
             width={600}
             height={700}
@@ -27,9 +27,9 @@ const WhyChoose = () => {
       {/* Text Content Section - shown first on larger screens */}
       <div className="order-lg-1 col-lg-6">
         {/* Section label */}
-        <h3 className="fs-16 py-2 px-3 text-main d-inline rounded-pill oswald">
+        {/* <h3 className="fs-16 py-2 px-3 text-main d-inline rounded-pill oswald">
           Why Choose Us ?
-        </h3>
+        </h3> */}
 
         {/* Main headline */}
         <h2 className="mb-5 mt-3 justify-content-start oswald">

@@ -30,8 +30,7 @@ const Navbar = ({
   const router = useRouter();
 
   // Class name for fixed sticky navbar version
-  const fixedClassName =
-    'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed';
+  const fixedClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed';
 
   // Navbar main content: logo, offcanvas menu, hamburger button
   const headerContent = (
@@ -40,24 +39,12 @@ const Navbar = ({
       <div className="navbar-brand w-100">
         <NextLink
           href="/"
-          title={
-            <Image
-              unoptimized={true}
-              alt="Logo | Buildify"
-              src="/img/logo.webp"
-              width={190}
-              height={70}
-            />
-          }
+          title={<Image unoptimized={true} alt="Logo | Buildify" src="/img/khush-logo.jpg" width={190} height={70} />}
         />
       </div>
 
       {/* Offcanvas navigation menu */}
-      <div
-        id="offcanvas-nav"
-        data-bs-scroll="true"
-        className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
-      >
+      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         {/* Offcanvas header with close button and logo, visible on small screens */}
         <div className="offcanvas-header d-lg-none offcavas-bg">
           <NextLink
@@ -90,13 +77,13 @@ const Navbar = ({
               <NextLink href="/" title="Home" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="About Us" className="nav-link" />
+              <NextLink href="/#about" title="About Us" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Projects" className="nav-link" />
+              <NextLink href="/projects" title="Projects" className="nav-link" />
             </li>
             <li className="nav-item" data-bs-dismiss="offcanvas">
-              <NextLink href="#" title="Contact Us" className="nav-link" />
+              <NextLink href="#contact" title="Contact Us" className="nav-link" />
             </li>
           </ul>
 
@@ -158,9 +145,7 @@ const Navbar = ({
           </div>
         ) : (
           // Default container for navbar content
-          <div className="container flex-lg-row flex-nowrap align-items-center py-2">
-            {headerContent}
-          </div>
+          <div className="container flex-lg-row flex-nowrap align-items-center py-2">{headerContent}</div>
         )}
       </nav>
     </Fragment>

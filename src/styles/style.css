@@ -2,6 +2,10 @@
 =        COLOR UTILITIES       =
 ==============================*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 .text-main {
   color: #eba10e !important;
 }

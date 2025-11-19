@@ -4,32 +4,29 @@ export const usefulLinks = [
   { id: 2, title: 'About Us' },
   { id: 3, title: 'Projects' },
   { id: 4, title: 'Contact Us' }, // fixed id gap from 3 to 5
-  { id: 5, title: 'Privacy Policy' } // fixed id gap from 5 to 7
 ];
 
 // Reasons to choose the company - could be shown on homepage or services page
 export const whyChoose = [
   {
-    id: 1,
-    title: 'Expert Craftsmanship',
+    title: "15+ Years Experience",
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos ipsa fuga assumenda, id amet possimus magni deleniti quam sequi explicabo.'
+      "We have over 15 years of experience in fabrication and construction, which helps us deliver reliable and steady results.",
   },
   {
-    id: 2,
-    title: 'Timely Project Delivery',
+    title: "Quality Work",
     description:
-      'Deleniti, laudantium sequi voluptas deserunt, iste repellat doloribus natus nemo quibusdam, ullam consequatur omnis et nisi tempore totam? Aliquid quaerat quis.'
+      "We focus on strong, durable, and clean workmanship in every project we take.",
   },
   {
-    id: 3,
-    title: 'Customer-Centric Approach',
+    title: "On-Time Delivery",
     description:
-      'Libero hic asperiores fugit perspiciatis dignissimos itaque, placeat optio voluptates maxime nulla, magni aspernatur excepturi deserunt enim sapiente eveniet.'
+      "We plan well and complete projects on schedule without delays.",
   },
   {
-    id: 4,
-    title: 'Commitment to Excellence',
-    description: 'Placeat optio voluptates maxime nulla, magni aspernatur excepturi deserunt enim sapiente eveniet.'
-  }
+    title: "Trusted by Clients",
+    description:
+      "With years of consistent work, we have built trust through honesty, clear communication, and dependable service.",
+  },
 ];
+
