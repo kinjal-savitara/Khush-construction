@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3333",
     "lint": "next lint",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3333",
     "sass": "sass --no-source-map src/assets/scss:public/css"
   },
   "dependencies": {
