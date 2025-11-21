@@ -90,12 +90,12 @@ const Navbar = ({
           {/* Offcanvas footer with contact info and social links (mobile only) */}
           <div className="offcanvas-footer d-lg-none">
             <div>
-              {/* <div className="d-flex align-items-center mb-5">
+              <div className="d-flex align-items-center mb-5">
                 <i className="uil uil-envelope fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-16 text-center m-0">
-                  <a href="mailto:buildify@gmail.com">buildify@gmail.com</a>
+                  <a href="mailto:info@khushconstructions.com">info@khushconstructions.com</a>
                 </p>
-              </div> */}
+              </div>
               <div className="d-flex mb-5">
                 <i className="uil uil-phone-volume fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-18 text-center m-0 d-flex flex-column">

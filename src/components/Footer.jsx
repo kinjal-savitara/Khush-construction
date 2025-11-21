@@ -82,13 +82,7 @@ const Footer = () => {
                 </address>
               </div>
 
-              {/* Email */}
-              {/* <div className="d-flex mb-3 align-items-center">
-                <i className="uil uil-envelope fs-26 text-main" />
-                <a href="mailto:buildify@gmail.com" className="link-body ms-2 roboto">
-                  buildify@gmail.com
-                </a>
-              </div> */}
+
 
               {/* Phone Numbers */}
               <div className="d-flex">
@@ -99,6 +93,15 @@ const Footer = () => {
                   <a href="tel:+919824144034">+91 98241 44034</a>
                   {/* <a href="tel:+919876543210">+91 98765 43210</a> */}
                 </p>
+              </div>
+
+              {/* here  */}
+              {/* Email */}
+              <div className="d-flex mb-3 align-items-center">
+                <i className="uil uil-envelope fs-26 text-main" />
+                <a href="mailto:info@khushconstructions.com" className="link-body ms-2 roboto">
+                  info@khushconstructions.com
+                </a>
               </div>
             </div>
           </div>
@@ -125,7 +128,7 @@ const Footer = () => {
 
           {/* Footer copyright */}
           <div className="d-md-flex align-items-center justify-content-center">
-            <p className="mb-2 mb-lg-0 text-center roboto">© {year} Khush Enterprise. All rights reserved</p>
+            <p className="mb-2 mb-lg-0 text-center roboto">© {year} Khush Construction. All rights reserved</p>
           </div>
         </div>
       </div>

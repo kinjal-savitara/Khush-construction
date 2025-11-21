@@ -436,11 +436,11 @@ export default function AboutUs() {
             </div>
             <div className="col-lg-6 animate__animated animate__fadeInRight">
               <div className="section-header">
-                <p className="section-subtitle">About Khush Enterprise</p>
+                <p className="section-subtitle">About Khush Construction</p>
                 <h2 className="section-title">Building Excellence Since 2012</h2>
               </div>
               <p className="mb-4" style={{ color: '#666', lineHeight: '1.8', fontSize: '1.05rem' }}>
-                <strong>Khush Enterprise</strong> has been a trusted name in the construction industry for over a
+                <strong>Khush Construction</strong> has been a trusted name in the construction industry for over a
                 decade. Since our establishment in 2012, we've been committed to delivering exceptional construction
                 solutions that transform visions into reality.
               </p>
