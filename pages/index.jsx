@@ -16,18 +16,19 @@ const Home = () => {
       {/* Meta Information */}
       <Head>
         <title>Khush - contruction site</title>
-        <meta name="description" content="Khush Enterprise - 12 years of quality construction" />
+        <meta
+          name="description"
+          content="Khush Construction is a trusted real estate builder and construction company in Surat and Bharuch, delivering quality residential and commercial projects since 2012."
+        />
         <link rel="icon" href="/favicon.jpg" />
-
       </Head>
 
       <main className="content-wrapper overflow-hidden">
-
         {/* Hero Section */}
         <Hero />
 
         {/* About Section */}
-        <section className="wrapper" id='about'>
+        <section className="wrapper" id="about">
           <div className="container py-12 py-md-14">
             <About
               headingH1="Welcome to "

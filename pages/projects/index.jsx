@@ -20,17 +20,18 @@ const projects = [
   { id: 18, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-13.jpg' },
   { id: 19, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-14.jpeg' },
 
-
-  { id: 12, title: 'Renovation Project', category: 'Renovation', img: '/img/bussiness-building.jpg' },
-
+  { id: 12, title: 'Renovation Project', category: 'Renovation', img: '/img/bussiness-building.jpg' }
 ];
 
 export default function Projects() {
   return (
     <Fragment>
       <Head>
-        <title>Kush - Construction Site</title>
-        <meta name="description" content="Next.js construction template with Bootstrap" />
+        <title>Khush Construction</title>
+        <meta
+          name="description"
+          content="Khush Construction is a trusted real estate builder and construction company in Surat and Bharuch, delivering quality residential and commercial projects since 2012."
+        />
       </Head>
 
       <main>
