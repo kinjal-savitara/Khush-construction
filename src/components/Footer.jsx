@@ -13,16 +13,16 @@ const Widget = ({ list, title }) => (
     <h4 className="widget-title fs-18 mb-3 text-uppercase oswald">{title}</h4>
     <ul className="list-unstyled text-reset mb-0">
       <li className="roboto">
-        <NextLink href="#" title={"Home"} />
+        <NextLink href="#" title={'Home'} />
       </li>
       <li className="roboto">
-        <NextLink href="/about-us" title={"About Us"} />
+        <NextLink href="/about-us" title={'About Us'} />
       </li>
       <li className="roboto">
-        <NextLink href="/projects" title={"Projects"} />
+        <NextLink href="/projects" title={'Projects'} />
       </li>
       <li className="roboto">
-        <NextLink href="#contact" title={"Contact Us"} />
+        <NextLink href="#contact" title={'Contact Us'} />
       </li>
     </ul>
   </div>
@@ -33,7 +33,7 @@ const ORIGINAL_MAP_EMBED_LINK =
 const MAP_EMBED_LINK =
   'https://www.google.com/maps/place/Khush+Construction/@21.6107573,73.0428455,17z/data=!3m1!4b1!4m6!3m5!1s0x3be023fbfc13cb0f:0x4ed6f0e10636e519!8m2!3d21.6107573!4d73.0428455!16s%2Fg%2F11vzgmbv6w?hl=en&entry=ttu&g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D';
 const Footer = () => {
-  const year = "2012"
+  const year = '2012';
 
   return (
     <footer className="border-top footer-bg overflow-hidden" id="contact">
@@ -96,7 +96,7 @@ const Footer = () => {
                 <p className="mt-1 ms-2 fs-18 d-flex flex-column roboto">
                   {/* add name here */}
                   <span className="fs-16 fw-bold">Mitesh R Shah</span> {/* Name */}
-                  <a href="tel:+911234567890">+91 98241 44034</a>
+                  <a href="tel:+919824144034">+91 98241 44034</a>
                   {/* <a href="tel:+919876543210">+91 98765 43210</a> */}
                 </p>
               </div>

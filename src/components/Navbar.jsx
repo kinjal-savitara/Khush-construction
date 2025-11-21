@@ -52,7 +52,7 @@ const Navbar = ({
             title={
               <Image
                 alt="Logo"
-                src="/img/logo.webp"
+                src="/img/khush-logo-navbar.jpg"
                 width={160}
                 height={60}
                 unoptimized={true}
@@ -90,20 +90,20 @@ const Navbar = ({
           {/* Offcanvas footer with contact info and social links (mobile only) */}
           <div className="offcanvas-footer d-lg-none">
             <div>
-              <div className="d-flex align-items-center mb-5">
+              {/* <div className="d-flex align-items-center mb-5">
                 <i className="uil uil-envelope fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-16 text-center m-0">
                   <a href="mailto:buildify@gmail.com">buildify@gmail.com</a>
                 </p>
-              </div>
+              </div> */}
               <div className="d-flex mb-5">
                 <i className="uil uil-phone-volume fs-32 text-main bg-white rounded-circle me-2" />
                 <p className="fs-18 text-center m-0 d-flex flex-column">
-                  <a href="tel:+919876543210">+91 98765 43210</a>
-                  <a href="tel:+911234567890">+91 12345 67890</a>
+                  <span className="fs-16 fw-bold">Mitesh R Shah</span> {/* Name */}
+                  <a href="tel:+919824144034">+91 98241 44034</a>
                 </p>
               </div>
-              <SocialLinks />
+              {/* <SocialLinks /> */}
             </div>
           </div>
         </div>
