@@ -32,7 +32,7 @@ const Home = () => {
             <About
               headingH1="Welcome to "
               span="Khush Construction"
-              para="Established in 2012, Khush Construction is a trusted real estate builder and construction company located in the Ankleshwar GIDC area of Gujarat, India."
+              para="Established in 2012, Khush Construction is a trusted real estate builder and construction company located in the Surat and Bharuch regions of Gujarat, India."
               para2="For more than a decade, we have been committed to delivering safe, strong, and high-quality residential and commercial structures. Our team focuses on doing every job the right way—using reliable materials, skilled craftsmanship, and transparent work practices."
               imgPosition="left"
               src="/img/home-page-1.jpg"

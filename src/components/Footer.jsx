@@ -53,8 +53,9 @@ const Footer = () => {
                 />
               </div>
               <p className="lead mb-2 text-md-center text-xl-start fs-18 roboto">
-                Khush Construction is a real estate builder and construction company located in the Ankleshwar GIDC area
-                in Gujarat, India
+                {/* Khush Construction is a real estate builder and construction company located in the Ankleshwar GIDC area
+                in Gujarat, India */}
+                Khush Construction is a trusted real estate builder and construction company located in the Surat and Bharuch regions of Gujarat, India.
               </p>
             </div>
 
@@ -78,7 +79,7 @@ const Footer = () => {
               <div className="d-flex mb-3 align-items-start">
                 <i className="uil uil-location-pin-alt fs-30 text-main" />
                 <address className="ms-2 m-0 mt-1 roboto">
-                  3, Plot, Yogi, 11, Yogi Estate Rd, Ankleshwar GIDC, Ankleshwar, Gujarat 393002
+                  3, Plot, Yogi, 11, Yogi Estate Rd, Ankleshwar, Bharuch, Gujarat 393001
                 </address>
               </div>
 
