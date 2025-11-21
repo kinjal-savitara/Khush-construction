@@ -38,7 +38,7 @@ const Hero = () => {
               <div className="d-inline link animate__animated animate__slideInUp animate__delay-3s position-relative z-2">
                 <NextLink
                   title="Know More"
-                  href="/#about"
+                  href="/projects"
                   className="btn btn-sm primary-bg text-white rounded d-inline"
                 />
               </div>
