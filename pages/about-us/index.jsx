@@ -4,7 +4,7 @@ import 'animate.css';
 
 export default function AboutUs() {
   const stats = [
-    { number: '12+', label: 'Years Experience', icon: '📅' },
+    { number: '15+', label: 'Years Experience', icon: '📅' },
     { number: '500+', label: 'Projects Completed', icon: '🏗️' },
     { number: '50+', label: 'Expert Workers', icon: '👷' },
     { number: '100%', label: 'Satisfaction Rate', icon: '⭐' }

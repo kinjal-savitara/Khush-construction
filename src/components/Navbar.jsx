@@ -39,7 +39,7 @@ const Navbar = ({
       <div className="navbar-brand w-100">
         <NextLink
           href="/"
-          title={<Image unoptimized={true} alt="Logo | Buildify" src="/img/khush-logo.jpg" width={190} height={70} />}
+          title={<Image unoptimized={true} alt="Logo" src="/img/khush-logo-navbar.jpg" width={150} height={70} />}
         />
       </div>
 
@@ -51,7 +51,7 @@ const Navbar = ({
             href="/"
             title={
               <Image
-                alt="Logo | Buildify"
+                alt="Logo"
                 src="/img/logo.webp"
                 width={160}
                 height={60}

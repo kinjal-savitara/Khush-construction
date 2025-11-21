@@ -5,14 +5,24 @@ import { Fragment } from 'react/jsx-runtime';
 
 const projects = [
   { id: 7, title: 'Renovation Project', category: 'Renovation', img: '/img/projects/images.jpg' },
-  { id: 8, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-1.jpg' },
-  { id: 9, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-2.jpg' },
-  { id: 1, title: 'Modern Construction', category: 'Construction', img: '/img/projects/pro-1.webp' },
-  { id: 2, title: 'Urban Planning', category: 'Architecture', img: '/img/projects/pro-2.webp' },
-  { id: 3, title: 'Interior Design', category: 'Design', img: '/img/projects/pro-3.webp' },
-  { id: 4, title: 'Commercial Tower', category: 'Construction', img: '/img/projects/pro-4.webp' },
-  { id: 5, title: 'Bridge Structure', category: 'Engineering', img: '/img/projects/pro-5.webp' },
-  { id: 6, title: 'Renovation Project', category: 'Renovation', img: '/img/projects/pro-6.webp' }
+  { id: 13, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-5.jpg' },
+  { id: 8, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-3.jpg' },
+  { id: 15, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-10.jpg' },
+  { id: 9, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-4.jpg' },
+  { id: 10, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-1.jpg' },
+  { id: 11, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-2.jpg' },
+  { id: 1, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-7.jpg' },
+  { id: 13, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-8.jpg' },
+  { id: 14, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-9.jpg' },
+
+  { id: 16, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-11.jpg' },
+  { id: 17, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-12.jpg' },
+  { id: 18, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-13.jpg' },
+  { id: 19, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-14.jpeg' },
+
+
+  { id: 12, title: 'Renovation Project', category: 'Renovation', img: '/img/bussiness-building.jpg' },
+
 ];
 
 export default function Projects() {

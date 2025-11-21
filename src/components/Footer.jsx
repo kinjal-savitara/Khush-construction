@@ -33,7 +33,7 @@ const ORIGINAL_MAP_EMBED_LINK =
 const MAP_EMBED_LINK =
   'https://www.google.com/maps/place/Khush+Construction/@21.6107573,73.0428455,17z/data=!3m1!4b1!4m6!3m5!1s0x3be023fbfc13cb0f:0x4ed6f0e10636e519!8m2!3d21.6107573!4d73.0428455!16s%2Fg%2F11vzgmbv6w?hl=en&entry=ttu&g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D';
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  const year = "2012"
 
   return (
     <footer className="border-top footer-bg overflow-hidden" id="contact">
@@ -44,8 +44,8 @@ const Footer = () => {
             <div className="widget d-flex flex-column align-items-center">
               <div className="mb-5 d-flex justify-content-md-center justify-content-xxl-start w-100">
                 <Image
-                  src="/img/khush-logo.jpg"
-                  alt="Logo | Buildify"
+                  src="/img/khush-logo-footer.jpg"
+                  alt="Logo"
                   width={200}
                   height={80}
                   unoptimized={true} // Prevents Next.js image optimization
@@ -125,7 +125,7 @@ const Footer = () => {
 
           {/* Footer copyright */}
           <div className="d-md-flex align-items-center justify-content-center">
-            <p className="mb-2 mb-lg-0 text-center roboto">© {currentYear} Khush Enterprise. All rights reserved</p>
+            <p className="mb-2 mb-lg-0 text-center roboto">© {year} Khush Enterprise. All rights reserved</p>
           </div>
         </div>
       </div>
