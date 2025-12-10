@@ -12,8 +12,6 @@ const projects = [
   { id: 10, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-1.jpg' },
   { id: 11, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-2.jpg' },
   { id: 1, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-7.jpg' },
-  { id: 13, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-8.jpg' },
-  { id: 14, title: 'Modern Construction', category: 'Construction', img: '/img/home-page-9.jpg' },
 
   { id: 16, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-11.jpg' },
   { id: 17, title: 'Renovation Project', category: 'Renovation', img: '/img/home-page-12.jpg' },
